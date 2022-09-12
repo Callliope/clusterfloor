@@ -1,0 +1,105 @@
+.section__toptitle{
+    
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 19px;
+text-decoration: none;
+color: #F7F5F2 ; 
+text-transform: lowercase;
+margin-top: 64px;
+
+}
+a:hover, a:focus, a:active,a:link {
+    text-decoration: none;
+    color: inherit;
+}
+.sales__title{
+    margin-top: 64px;
+    margin-bottom: 94px;
+    
+}
+.sales__item{
+    background: red;
+    width: 380px;
+    height: 529px;
+    
+}
+.sales__item-name{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+
+color: #FBFBFB;
+margin-top: 73px;
+margin-left: 26px;
+}
+.sales__row{
+    display: flex;
+    flex-direction: row;
+    gap: 0px 27px;
+}
+.sales__item img{
+    position: relative;
+}
+.sales__item-circle{
+    left: 14px;
+    top: 15px;
+}
+#card1pic1{
+    top: -4px;
+    left: 49px;
+    
+}
+#card1pic2{
+    left: 146px; top: -358px; 
+    filter: drop-shadow(6px 0px 7px rgba(55, 34, 22, 0.1));
+    
+}
+#card1pic3{
+    left: 61px; top: -538px;
+    filter: drop-shadow(6px 0px 7px rgba(55, 34, 22, 0.1));
+}
+#card1pic4{
+    left: -3px; top: -800px;
+    width: 179.07px;
+height: 262.5px;
+}
+#card1pic5{
+    left: 50px; top: -1007px;
+}
+#card2pic1,#card3pic1{
+    top: 23px;
+    left: 49px;
+}
+#card2pic4{
+    left: 199px; top: -1008px;
+    z-index: 2;
+    filter: drop-shadow(6px 0px 7px rgba(55, 34, 22, 0.1));
+}
+#card2pic3{
+    left: 125px; top: -694px;
+    filter: drop-shadow(6px 0px 7px rgba(55, 34, 22, 0.1));
+}
+#card2pic2{
+    left: 45px; top: -312px;
+    z-index: 1;
+    filter: drop-shadow(6px 0px 7px rgba(55, 34, 22, 0.1));
+}
+#card2pic5{
+    left: 74px; top: -1272px;
+    z-index: 3;
+}
+#card3pic2{
+    left: 75px; top: -326px;
+    filter: drop-shadow(6px 0px 7px rgba(22, 30, 55, 0.27));
+    
+}
+#card3pic3{
+    left: 77px; top: -366px;
+}
+
+
