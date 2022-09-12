@@ -4802,6 +4802,14 @@ a:hover, a:focus, a:active, a:link {
   }
 }
 
+@media (max-width: 1200px) {
+  .sales .sales__item {
+    background: red;
+    width: 280px;
+    height: 229px;
+  }
+}
+
 .header-popup {
   position: relative;
   width: 784px;
